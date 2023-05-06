@@ -1,0 +1,37 @@
+[
+    {
+        "name": "himalayan",
+        "title": "Himalayan High",
+        "picture": "./public/images/himalayan-high.jpg"
+    },
+    {
+        "name": "japanese",
+        "title": "Japanese Garden",
+        "picture": "./public/images/japanese-garden.jpg"
+    },
+    {
+        "name": "hibiscus",
+        "title": "Hibiscus Haze",
+        "picture": "./public/images/hibiscus-haze.jpg"
+    },
+    {
+        "name": "indian",
+        "title": "Indian Dream",
+        "picture": "./public/images/indian-chai.jpg"
+    },
+    {
+        "name": "tangerine",
+        "title": "Tangerine Bliss",
+        "picture": "./public/images/tangerine-bliss.jpg"
+    },
+    {
+        "name": "mountain",
+        "title": "Mountain Mist",
+        "picture": "./public/images/mountain-mist.jpg"
+    },
+    {
+        "name": "persian",
+        "title": "Persian Nights",
+        "picture": "./public/images/persian-nights.jpg"
+    }
+]

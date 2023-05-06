@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const workshops = require('./workshops.json');
+const teas = require('./teas.json');
 
 module.exports = router;
 
@@ -28,6 +29,19 @@ router.get('/workshops/:workshopDesc', (request, response) => {
     
 
 router.get('/teas', (request, response) => {
-    response.render('teas.ejs')
+    response.render('teas.ejs', {teas })
 });
 
+router.get('/teas/:teaDesc', (request, response) => {
+    teaDescription = request.params.teaDesc;
+
+    requestedTea = teas.find((tea) => {
+        if (tea.name === teaDescription) { return true; }
+        else { return false; }
+    });
+
+     if (requestedTea) {
+        response.render(`tea-description.ejs`, {teas, teaDescription})
+     }
+    
+    });

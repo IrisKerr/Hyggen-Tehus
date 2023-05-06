@@ -1,0 +1,15 @@
+<%- include("partials/header.ejs") %>
+
+<body>
+
+    <%- include("partials/nav.ejs") %>
+
+    <h1><%= requestedTea.title %></h1>
+
+    <div> <img src="<%= requestedTea.image %>" alt=""></div>
+    <button>Buy</button>
+    <div><a href="/teas">Head back to the list of teas</a></div>
+
+</body>
+
+</html>

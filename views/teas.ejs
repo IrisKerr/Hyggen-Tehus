@@ -12,6 +12,15 @@
         you will find a list of our different teas, along with their flavor profile, ingredients, and brewing
         instructions.
     </p>
+
+    <% for (const tea of teas) { %>
+    <div>
+
+        <img src="../public/images/hibiscus-haze.jpg" alt="">
+        <a href="/teas/<%= tea.name %>"><span><%= tea.title %></span></a>
+    </div>
+    <% } %>
+
 </section>
 
 
