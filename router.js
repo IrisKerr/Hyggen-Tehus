@@ -21,7 +21,7 @@ router.get('/workshops/:workshopDesc', (request, response) => {
     });
 
      if (requestedWorkshop) {
-        response.render(`${requestedWorkshop.name}.ejs`, {workshops, workshopDescription})
+        response.render(`workshop-description.ejs`, {workshops, workshopDescription})
      }
     
     });
