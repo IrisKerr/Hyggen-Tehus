@@ -4,40 +4,35 @@
       "title": "Tea Tasting Atelier",
       "description": "In this atelier, you'll learn how to taste and evaluate different types of tea, and how to identify the unique flavor and aroma profiles of each.",
       "date": "Thursday 25. May 2023, 19:00 - 20:30",
-      "cssFile": null,
-      "jsFile": null
+      "cssFile": null
     },
     {
         "name": "brewing",
         "title": "Tea Brewing Atelier",
         "description": "Perfect your tea brewing technique in this atelier, where you'll learn the ideal temperature and steeping times for different types of tea.",
         "date": "Tuesday 06. June 2023, 19:00 - 20:30",
-        "cssFile": null,
-        "jsFile": null
+        "cssFile": null
     },
     {
         "name": "pairing",
         "title": "Tea and Food Pairing Atelier",
         "description": "Discover the art of pairing tea with food in this atelier, where you'll learn how to match different teas with different flavors and textures.",
         "date": "Thursday 08. June 2023, 19:00 - 20:30",
-        "cssFile": null,
-        "jsFile": null
+        "cssFile": null
     },
     {
         "name": "health",
         "title": "Tea and Health Atelier",
         "description": "Explore the health benefits of tea in this atelier, where you'll learn about the science behind the various health claims associated with different types of tea.",
         "date": "Thursday 15. June 2023, 19:00 - 20:30",
-        "cssFile": null,
-        "jsFile": null
+        "cssFile": null
     },
     {
         "name": "culture",
         "title": "Tea History and Culture Atelier",
         "description": "Travel back in time with this atelier, where you'll learn about the fascinating history and cultural traditions of tea.",
         "date": "Tuesday 20. June 2023, 19:00 - 20:30",
-        "cssFile": null,
-        "jsFile": null
+        "cssFile": null
     }
   ]
   
