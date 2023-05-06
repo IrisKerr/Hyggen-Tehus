@@ -5,6 +5,9 @@
     <%- include("partials/nav.ejs") %>
 
     <h1><%= requestedTea.title %></h1>
+    <p><%= requestedTea.description %></p>
+    <p><%= requestedTea.preparation %></p>
+    <p><%= requestedTea.pairing %></p>
 
     <div> <img src="<%= requestedTea.image %>" alt=""></div>
     <button>Buy</button>
