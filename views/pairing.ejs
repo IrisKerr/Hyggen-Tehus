@@ -1,0 +1,15 @@
+<%- include("partials/header.ejs") %>
+
+<body>
+
+    <%- include("partials/nav.ejs") %>
+
+    <h1><%= requestedWorkshop.title %></h1>
+    <p><%= requestedWorkshop.description %></p>
+    <p>Date : <%= requestedWorkshop.date %></p>
+    <button>Book now!</button>
+    <div><a href="/workshops">Head back to the list of workshops</a></div>
+
+</body>
+
+</html>

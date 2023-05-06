@@ -15,7 +15,7 @@
         <% for (const workshop of workshops) { %>
         <div>
             <p><%= workshop.title %></p>
-            <button>View</button>
+            <a href="/workshops/<%= workshop.name %>">View</a>
         </div>
         <% } %>
 
