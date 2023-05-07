@@ -5,30 +5,37 @@
     <%- include("partials/nav.ejs") %>
 
     <section class="container">
-        <div class="container-content">
-            <p></p> At Hyggen Tehus, we believe that tea is more than just a beverage - it's an experience that can be
-            both
-            enjoyable and beneficial for your health. That's why we've created this Tea Education section of our
-            website, to
-            help you learn more about the different types of tea and how to prepare them through a range of workshops.
+        <div class="page-container-content">
+            <p> At Hyggen Tehus, we believe that tea is more than just a beverage - it's an experience that can be
+                both
+                enjoyable and beneficial for your health. That's why we've created this Tea Education section of our
+                website, to
+                help you learn more about the different types of tea and how to prepare them through a range of
+                workshops.</p>
             <p>We offer a range of ateliers that are designed to help you learn more about tea and how to prepare it.
+                <br>
                 Here
                 are
                 some of our most popular workshops:</p>
+            <div class="workshop-container">
 
-            <% for (const workshop of workshops) { %>
-            <div>
-                <p><%= workshop.title %></p>
-                <a href="/workshops/<%= workshop.name %>">View</a>
-            </div>
-            <% } %>
+                <% for (const workshop of workshops) { %>
+                <div class="workshop-content">
+                    <img class="workshop-image" src="<%= workshop.image %>" alt="workshop-picture">
+                    <div class="workshop-details">
 
-            <p>We hope these workshops help you appreciate and enjoy your tea even more! Contact us to schedule your
-                spot on
-                the
-                workshops.</p>
-        </div>
+
+                        <p><%= workshop.title %></p>
+                        <a href="/workshops/<%= workshop.name %>">>>View<<</a> </div> </div> <% } %> </div> <p>We hope
+                                these workshops help you appreciate and enjoy your tea even more! <br> Contact us to
+                                schedule
+                                your
+                                spot on
+                                the
+                                workshops.</p>
+                    </div>
     </section>
+    <%- include("partials/footer.ejs") %>
 </body>
 
 </html>

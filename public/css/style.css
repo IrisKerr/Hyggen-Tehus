@@ -7,11 +7,17 @@
 
   body {
     font-family: 'Red Hat Display', sans-serif; 
+    color: rgb(121, 109, 96);
+    text-align: center;
   }
 
   a, a:visited, a:link, a:active {
     color: rgb(121, 109, 96);
     text-decoration: none;
+  }
+
+ a:hover {
+    color:rgb(141, 75, 17);
   }
 
   /* nav style */
@@ -37,7 +43,6 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    text-align: center;
   }
 
   .navbar-list {
@@ -57,25 +62,156 @@ nav {
     font-size: 1.4rem;
   }
 
-.navbar-link:hover {
-  color:rgb(141, 75, 17);
-}
 
 /* discover page */
 
 .container {
+  display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  padding: 2rem;
 }
 
 .container-content {
+  display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
-  text-align: center;
+  width: 80%;
+}
+
+p {
+  line-height: 1.5rem;
+  margin: 1rem auto;
 }
   
+.teashop-image {
+  background: url('../images/teashop.jpg') no-repeat center/100%;
+  width: 100%;
+  height: 600px;
+  margin: 2rem auto;
+}
+
+.thanks {
+  font-family: 'Caveat', cursive;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin: 1.5rem auto;
+}
+
+.aldus-leaf {
+  font-size:2rem;
+}
+
+/* workshop page */
+.page-container-content {
+  width: 80%;
+}
+
+.workshop-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+
+.workshop-content {
+  width: 300px;
+  height: 350px;
+  margin: 2rem 2rem;
+  margin-bottom: 3rem;
+}
+
+.workshop-image {
+  background: url('../images/health.jpg') no-repeat center/100%;
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+}
+
+.workshop-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.workshop-details p {
+  font-weight: 600;
+}
+
+/* Teas page */
+
+.tea-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea-page-container-content p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.tea-page-container-content p {
+  padding: 0 10%;
+}
+
+.tea-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.tea-content {
+  margin: 2rem 2rem;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tea-image {
+  background: url('../images/hibiscus-haze.jpg') no-repeat center/100%;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+}
+
+.tea-reference {
+  margin: 1rem auto;
+}
+
+.tea-reference:hover {
+  font-weight: 600;
+}
+
+/* footer */
+
+footer {
+  margin-top: 2rem;
+  padding: 2.5rem 0;
+  background-color: hsla(33, 78%, 91%, 0.641);
+  border-radius: 5% 5% 0;
+  font-size: 0.9rem;
+}
+
+/* workshop description page */
+.workshop-description-image {
+  height: 350px;
+  width: 350px;
+}
+
+/* tea description page */
+
+/* media queries */
+
   @media screen and (max-width: 280px) {
     .navbar-title {
       letter-spacing: 0.2rem;
@@ -96,9 +232,13 @@ nav {
       letter-spacing: 0.1rem;
       font-size: 1.7rem; 
     }
+    .tea-page-container-content p {
+      padding: 0;
+    }
   }
 
   @media screen and (max-width: 390px) {
+
     .navbar-title {
       letter-spacing: 0.2rem;
       font-size: 1.9rem; 
@@ -106,8 +246,23 @@ nav {
 
     .navbar-link {
       margin: 0 auto;
-      font-size: 1.3rem;
+      font-size: 1.2rem;
     }
+
+    .tea-page-container-content p {
+      padding: 0 5%;
+      max-width: 240px;
+    }
+    
+    .teashop-image {
+        margin: 0.3rem auto;
+        height: 300px;
+      }
+
+    .navbar-list {
+      margin-top: 1.5rem;
+    }
+    
   }
 
   @media screen and (max-width: 450px) {
@@ -115,14 +270,48 @@ nav {
       letter-spacing: 0.2rem;
       font-size: 2rem; 
     }
+
+    footer {
+      font-size: 0.7rem;
+      padding: 2.5rem 2rem;
+    }
+
+    .container-content {
+      width: 80%;
+    }
   }
 
   @media screen and (max-width: 768px) {
     .navbar-list {
       flex-direction: column;
       padding: 2rem;
+      margin-top: 2rem;
     }
     .navbar-item {
       margin: 0.5rem auto;
     }
   }
+  
+
+  @media screen and (max-width: 900px) {
+ 
+    p {
+      font-size: 0.9rem;
+    }
+
+    .container-content {
+      width: 65%;
+    }
+  }
+
+
+  @media screen and (min-width: 1400px) {
+ 
+    .container-content {
+      width: 50%;
+    }
+  }
+
+
+
+

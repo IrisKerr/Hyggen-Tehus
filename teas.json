@@ -5,7 +5,7 @@
         "description": "Black tea with a musky and fruity flavor, with hints of nutmeg and apricot.",
         "preparation": "(212°F or 100°C) for about 3-4 minutes.",
         "pairing": "Its complex flavor profile goes well with spicy and flavorful dishes like Indian curry, Thai food, and Mexican cuisine. It can also be enjoyed with cheese and crackers, scones, or biscuits. Also a great accompaniment to breakfast foods like toast and jam, muffins, and oatmeal.",
-        "picture": "./public/images/himalayan-high.jpg"
+        "picture": "../images/himalayan-high.jpg"
     },
     {
         "name": "japanese",
@@ -13,7 +13,7 @@
         "description": "Japanese green tea blended with roasted brown rice, very popular in Japan and Known for its nutty and toasty flavor",
         "preparation": "175-185°F (80-85°C) for about 1-2 minutes.",
         "pairing": "Goes particularly well with Japanese cuisine, including sushi, tempura, and miso soup. You can also enjoy genmaicha tea with desserts like mochi and sweet rice cakes",
-        "picture": "./public/images/japanese-garden.jpg"
+        "picture": "../images/japanese-garden.jpg"
     },
     {
         "name": "hibiscus",
@@ -21,7 +21,7 @@
         "description": "Vibrant and tangy herbal tea made from the dried calyces of the hibiscus flower. With a tart, fruity flavor that is reminiscent of cranberry or pomegranate juice.",
         "preparation": "Boiling water for about 5-10 minutes.",
         "pairing": "Goes particularly well with Mexican cuisine, including spicy dishes like chili and salsa. You can also enjoy hibiscus tea with desserts like fruit tarts, sorbets, and dark chocolate, as its tangy flavor complements the sweetness of these treats.",
-        "picture": "./public/images/hibiscus-haze.jpg"
+        "picture": "../images/hibiscus-haze.jpg"
     },
     {
         "name": "indian",
@@ -29,7 +29,7 @@
         "description": "Spiced black tea with notes of cinnamon, cardamom, ginger, cloves, and black pepper.",
         "preparation": "Simmer the tea for about 5-10 minutes and add milk.",
         "pairing": "It goes particularly well with Indian cuisine, including spicy curries, biryanis, and samosas. ou can also enjoy chai tea with desserts like cookies, cakes, and pastries, as its creamy and spiced flavor complements the sweetness of these treats. ",
-        "picture": "./public/images/indian-chai.jpg"
+        "picture": "../images/indian-chai.jpg"
     },
     {
         "name": "tangerine",
@@ -37,7 +37,7 @@
         "description": "Green tea with the bright and tangy flavor of tangerine",
         "preparation": "175-180°F (80-82°C) for about 2-3 minutes.",
         "pairing": "Goes well with salads, seafood, sushi, and steamed vegetables, as its light and refreshing taste can help balance out the flavors of these dishes. You can also enjoy green tea with tangerine with desserts like lemon tarts, fruit salads, and citrus sorbets, as its citrusy flavor complements the sweetness of these treats.",
-        "picture": "./public/images/tangerine-bliss.jpg"
+        "picture": "../images/tangerine-bliss.jpg"
     },
     {
         "name": "mountain",
@@ -45,7 +45,7 @@
         "description": "Black tea with a nutty, floral, and fruity aroma.",
         "preparation": "185-205°F (85-95°C) for 3-5 minutes.",
         "pairing": "Goes particularly well with Asian cuisine, including sushi, dim sum, and stir-fries. You can also enjoy it with desserts like fruit tarts, dark chocolate, and nutty pastries.",
-        "picture": "./public/images/mountain-mist.jpg"
+        "picture": "../images/mountain-mist.jpg"
     },
     {
         "name": "persian",
@@ -53,6 +53,6 @@
         "description": "Green tea with the fragrant aroma of roses and the beautiful blue hues of cornflower.",
         "preparation": "175-180°F (80-82°C) for about 2-3 minutes.",
         "pairing": "It goes well with salads, sushi, and light sandwiches, as its light taste can help balance out the flavors of these dishes. You can also enjoy green tea with roses and cornflower with desserts like vanilla cake, fruit tarts, and macarons, as its floral taste complements the sweetness of these treats.",
-        "picture": "./public/images/persian-nights.jpg"
+        "picture": "../images/persian-nights.jpg"
     }
 ]

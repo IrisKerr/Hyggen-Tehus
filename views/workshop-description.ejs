@@ -1,13 +1,13 @@
 <%- include("partials/header.ejs") %>
 
 <body>
-
     <%- include("partials/nav.ejs") %>
+
 
     <h1><%= requestedWorkshop.title %></h1>
     <p><%= requestedWorkshop.description %></p>
     <p>Date : <%= requestedWorkshop.date %></p>
-    <div> <img src="<%= requestedWorkshop.image %>" alt=""></div>
+    <!-- <div> <img class="workshop-description-image" src="<%= requestedWorkshop.image %>" alt="workshop-image"></div> -->
     <button>Book now!</button>
     <div><a href="/workshops">Head back to the list of workshops</a></div>
 

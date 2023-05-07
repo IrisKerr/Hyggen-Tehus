@@ -4,24 +4,33 @@
 
     <%- include("partials/nav.ejs") %>
 
+
+    <section class="tea-page-container">
+        <div class="tea-page-container-content">
+            <p>
+                At Hyggen Tehus, we offer a wide variety of teas and tea-related products for all tastes and
+                preferences.
+                Below
+                you will find a list of our different teas, along with their flavor profile, ingredients, and brewing
+                instructions.
+            </p>
+
+            <div class="tea-container">
+                <% for (const tea of teas) { %>
+
+                <div class="tea-content">
+
+
+                    <img class="tea-image" src="<%= tea.picture %>" alt="tea-picture">
+                    <a class="tea-reference" href="/teas/<%= tea.name %>"><span><%= tea.title %></span></a>
+                </div>
+
+                <% } %>
+            </div>
+        </div>
+    </section>
+
+    <%- include("partials/footer.ejs") %>
 </body>
-
-<section>
-    <p>
-        At Hyggen Tehus, we offer a wide variety of teas and tea-related products for all tastes and preferences. Below
-        you will find a list of our different teas, along with their flavor profile, ingredients, and brewing
-        instructions.
-    </p>
-
-    <% for (const tea of teas) { %>
-    <div>
-
-        <img src="../public/images/hibiscus-haze.jpg" alt="">
-        <a href="/teas/<%= tea.name %>"><span><%= tea.title %></span></a>
-    </div>
-    <% } %>
-
-</section>
-
 
 </html>
