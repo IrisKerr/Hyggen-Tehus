@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&family=Karla:wght@300;400;500;600&family=Red+Hat+Display:wght@400;500;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Red Hat Display', sans-serif; 
+  }
+
+  a, a:visited, a:link, a:active {
+    color: rgb(121, 109, 96);
+    text-decoration: none;
+  }
+
+  /* nav style */
+
+nav {
+  font-family: 'Karla', sans-serif;
+}
+
+  .navbar {
+    background: url('../images/nav-image.jpg') no-repeat center/100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-title {
+    background-color: hsla(33, 78%, 91%, 0.641);
+    width: 100%;
+    height: 15vh;
+    color:rgb(141, 75, 17);
+    letter-spacing: 0.3rem;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    margin-bottom: 2rem;
+  }
+
+  .navbar-item {
+    list-style-type: none;
+  }
+
+  .navbar-link {
+    margin: 0 2rem;
+    font-size: 1.4rem;
+  }
+
+.navbar-link:hover {
+  color:rgb(141, 75, 17);
+}
+
+/* discover page */
+
+.container {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container-content {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+  
+  @media screen and (max-width: 280px) {
+    .navbar-title {
+      letter-spacing: 0.2rem;
+      font-size: 1.5rem; 
+    }
+
+    .navbar-list {
+      flex-direction: column;
+      padding: 2rem;
+    }
+    .navbar-item {
+      margin: 0.5rem auto;
+    }
+  }
+
+  @media screen and (max-width: 350px) {
+    .navbar-title {
+      letter-spacing: 0.1rem;
+      font-size: 1.7rem; 
+    }
+  }
+
+  @media screen and (max-width: 390px) {
+    .navbar-title {
+      letter-spacing: 0.2rem;
+      font-size: 1.9rem; 
+    }
+
+    .navbar-link {
+      margin: 0 auto;
+      font-size: 1.3rem;
+    }
+  }
+
+  @media screen and (max-width: 450px) {
+    .navbar-title {
+      letter-spacing: 0.2rem;
+      font-size: 2rem; 
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .navbar-list {
+      flex-direction: column;
+      padding: 2rem;
+    }
+    .navbar-item {
+      margin: 0.5rem auto;
+    }
+  }
