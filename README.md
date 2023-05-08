@@ -1,8 +1,8 @@
 # Hyggen-Tehus
 
-This dynamic website project was made using Express and EJS.
+This dynamic website project was made using Express, EJS and vanilla CSS.
 
-The design revolves around the concept of hygge (Hyggen Tehus that means "cozy teahouse") wich is a popular concept in Danish Culture.
+The design revolves around the concept of hygge (Hyggen Tehus that means "cozy teahouse") wich is a popular concept in Danish Culture. Associated with hygge, tea makes the perfect subject of such a project.
 
 ### Desktop View
 
