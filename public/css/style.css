@@ -178,7 +178,7 @@ p {
 }
 
 .tea-image {
-  /* background: url('../images/hibiscus-haze.jpg') no-repeat center/100%; */
+  
   border-radius: 50%;
   width: 250px;
   height: 250px;
@@ -190,6 +190,37 @@ p {
 
 .tea-reference:hover {
   font-weight: 600;
+}
+
+/* Tea-item page */
+.page-container {
+  display: flex;
+  justify-content: center;
+  margin: 3rem auto;
+}
+
+.item-container {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+  width: 80%;
+}
+
+.return-link {
+  marg
+}
+
+.item-image {
+  margin-right: 3rem;
+ 
+}
+
+.item-image__img {
+  height: 270px;
+  width: 270px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  
 }
 
 /* footer */

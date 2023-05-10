@@ -3,15 +3,32 @@
 <body>
 
     <%- include("partials/nav.ejs") %>
+    <div class="page-container">
+        <div class="item-container">
+            <div class="item-image"><img class="item-image__img" src="<%= requestedTea.picture %>" alt="tea-image">
+                <div><a href="/teas">
+                        </i>Head back to the list of teas</a> </div>
+            </div>
+            <div class="item-description">
 
-    <h1><%= requestedTea.title %></h1>
-    <p><%= requestedTea.description %></p>
-    <p><%= requestedTea.preparation %></p>
-    <p><%= requestedTea.pairing %></p>
+                <h1><%= requestedTea.title %></h1>
+                <p><%= requestedTea.description %></p>
+                <p></i><%= requestedTea.preparation %></p>
+                <p><%= requestedTea.pairing %></p>
 
-    <div> <img style="height: 400px" src="<%= requestedTea.picture %>" alt="tea-image"></div>
-    <button>Buy</button>
-    <div><a href="/teas">Head back to the list of teas</a></div>
+                <div class="item-quantity">
+                    <p>Available in our shop
+                        <span>50g</span>
+                        <span>100g</span>
+                        <span>200g</span>
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <%- include("partials/footer.ejs") %>
 
 </body>
 
