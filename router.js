@@ -22,7 +22,7 @@ router.get('/workshops/:workshopDesc', (request, response) => {
     });
 
      if (requestedWorkshop) {
-        response.render(`workshop-description.ejs`, {workshops, workshopDescription})
+        response.render('workshop-description.ejs', {workshops, workshopDescription})
      }
     
     });
@@ -41,7 +41,7 @@ router.get('/teas/:teaDesc', (request, response) => {
     });
 
      if (requestedTea) {
-        response.render(`tea-description.ejs`, {teas, teaDescription})
+        response.render('tea-description.ejs', {teas, teaDescription})
      }
     
     });
