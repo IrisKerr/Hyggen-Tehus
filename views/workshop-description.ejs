@@ -3,15 +3,18 @@
 <body>
     <%- include("partials/nav.ejs") %>
 
+    <div class="workshop-description-container">
+        <div> <img class="workshop-description-image" src="<%= requestedWorkshop.image %>" alt="workshop-image">
+            <div><a href="/workshops">Head back to the list of workshops</a></div>
+        </div>
+        <div class="workshop-description-text">
+            <h1><%= requestedWorkshop.title %></h1>
+            <p><%= requestedWorkshop.description %></p>
+            <p>Date : <%= requestedWorkshop.date %></p>
 
-    <h1><%= requestedWorkshop.title %></h1>
-    <p><%= requestedWorkshop.description %></p>
-    <p>Date : <%= requestedWorkshop.date %></p>
-    <div> <img style="height: 400px" class="workshop-description-image" src="<%= requestedWorkshop.image %>"
-            alt="workshop-image"></div>
-    <button>Book now!</button>
-    <div><a href="/workshops">Head back to the list of workshops</a></div>
-
+            <button>Book now!</button>
+        </div>
+    </div>
 </body>
 
 </html>
