@@ -1,12 +1,12 @@
 // Dependecies required
 const express = require('express');
-const router = require('./router.js');
+const router = require('./app/router.js');
 const app = express();
 
 // Settings for EJS
 const ejs = require('ejs');
 app.set('view engine', 'ejs');
-app.set('views', __dirname + '/views');
+app.set('views', __dirname + '/app/views');
 app.use(express.static(__dirname + '/public'));
 
 // Setting up the server
