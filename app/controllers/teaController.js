@@ -1,4 +1,4 @@
-const teas = require('../../teas.json');
+const teas = require('../../data/teas.json');
 
 const teaController = {
     getTeaPage: (request, response) => {

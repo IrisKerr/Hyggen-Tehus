@@ -1,4 +1,4 @@
-const workshops = require('../../workshops.json');
+const workshops = require('../../data/workshops.json');
 
 const workshopController = {
     getWorkshopPage: (request, response) => {
