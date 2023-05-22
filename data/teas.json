@@ -54,5 +54,35 @@
         "preparation": "175-180°F (80-82°C) for about 2-3 minutes.",
         "pairing": "It goes well with salads, sushi, and light sandwiches, as its light taste can help balance out the flavors of these dishes. You can also enjoy green tea with roses and cornflower with desserts like vanilla cake, fruit tarts, and macarons, as its floral taste complements the sweetness of these treats.",
         "picture": "../images/persian-nights.jpg"
+    },
+    {
+        "name": "camomile",
+        "title": "Camomile",
+        "picture": "../images/camomile.jpg"
+    },
+    {
+        "name": "verbena",
+        "title": "Verbena",
+        "picture": "../images/verbena.jpg"
+    },
+    {
+        "name": "heather",
+        "title": "Heather",
+        "picture": "../images/heather.jpg"
+    },
+    {
+        "name": "marigold",
+        "title": "Marigold",
+        "picture": "../images/marigold.jpg"
+    },
+    {
+        "name": "cowslip",
+        "title": "Cowslip Primrose",
+        "picture": "../images/cowslip-primrose.jpg"
+    },
+    {
+        "name": "violet",
+        "title": "Violet",
+        "picture": "../images/violet.jpg"
     }
 ]
